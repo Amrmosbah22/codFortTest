@@ -50,20 +50,48 @@ public class Main {
 
 
 
+//        int sum = 0 ;
+//
+//        Scanner number = new Scanner(System.in);
+//        System.out.print("Enter your number : ");
+//        int result = number.nextInt();
+//
+//        while (result >= 0){
+//            sum += result ;
+//            System.out.print("Enter your number : ");
+//            result = number.nextInt();
+//        }
+//
+//        System.out.println("this is wrong your final result : " + sum);
+//        number.close();
+
+
+
+
+
+
+
+
+
         int sum = 0 ;
 
         Scanner number = new Scanner(System.in);
         System.out.print("Enter your number : ");
         int result = number.nextInt();
 
-        while (result >= 0){
+        do{
             sum += result ;
             System.out.print("Enter your number : ");
             result = number.nextInt();
         }
+        while (result >= 0);
 
         System.out.println("this is wrong your final result : " + sum);
         number.close();
+
+
+
+
 
 
 
